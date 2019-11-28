@@ -2,7 +2,7 @@ package cours.jee.models;
 
 import javax.persistence.*;
 import java.util.List;
-
+@Entity
 public class Service {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

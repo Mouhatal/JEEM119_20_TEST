@@ -1,7 +1,12 @@
+cours\jee\services\ServiceService.class
 cours\jee\models\Service.class
 cours\jee\services\ISpecialite.class
 cours\jee\services\SpecialiteService.class
+cours\jee\models\Medecin.class
+cours\jee\services\IService.class
+cours\jee\services\MedecinService.class
+cours\jee\controllers\MedecinServlet.class
 cours\jee\models\Specialite.class
 cours\jee\utils\HibernateUtil.class
 cours\jee\controllers\UserServlet.class
-cours\jee\models\Medecin.class
+cours\jee\services\IMedecin.class
