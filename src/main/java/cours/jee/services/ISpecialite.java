@@ -8,5 +8,6 @@ import java.util.List;
 @Local
 public interface ISpecialite {
     public List<Specialite> findAll();
+    public Specialite findById(int id);
 
 }

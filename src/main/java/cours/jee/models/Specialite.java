@@ -11,11 +11,27 @@ public class Specialite {
     private int id;
     @Column(length = 30)
     private String libelle;
-    @ManyToMany
+    @ManyToMany(mappedBy ="specialites" )
     private List<Medecin> medecins;
     @ManyToOne
     @JoinColumn(name = "service_id")
     private Service service;
+
+    public List<Medecin> getMedecins() {
+        return medecins;
+    }
+
+    public void setMedecins(List<Medecin> medecins) {
+        this.medecins = medecins;
+    }
+
+    public Service getService() {
+        return service;
+    }
+
+    public void setService(Service service) {
+        this.service = service;
+    }
 
     public int getId() {
         return id;

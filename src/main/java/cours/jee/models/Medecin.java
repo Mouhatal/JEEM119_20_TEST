@@ -4,6 +4,7 @@ import javax.persistence.*;
 import java.util.Date;
 import java.util.List;
 
+
 @Entity
 public class Medecin {
     @Id
@@ -21,8 +22,28 @@ public class Medecin {
     private String email;
     @Temporal(TemporalType.DATE)
     private Date datenaiss;
-    @ManyToMany
+    @ManyToMany(cascade ={CascadeType.PERSIST,CascadeType.MERGE},fetch = FetchType.EAGER)
+    @JoinTable(name = "medecin_specialite",joinColumns = @JoinColumn(name="medecin_id"),
+                                            inverseJoinColumns =  @JoinColumn(name="specialite_id"))
     private List<Specialite> specialites;
+    @ManyToOne
+    private Service service;
+
+    public List<Specialite> getSpecialites() {
+        return specialites;
+    }
+
+    public void setSpecialites(List<Specialite> specialites) {
+        this.specialites = specialites;
+    }
+
+    public Service getService() {
+        return service;
+    }
+
+    public void setService(Service service) {
+        this.service = service;
+    }
 
     public int getId() {
         return id;

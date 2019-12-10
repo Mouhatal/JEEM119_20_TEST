@@ -18,5 +18,10 @@ public class ServiceService implements IService{
 
          return session.createQuery("SELECT s FROM Service s ").list();
     }
+
+    @Override
+    public Service findById(int id) {
+        return session.find(Service.class,id);
+    }
 }
 

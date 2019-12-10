@@ -12,6 +12,25 @@ public class Service {
     @OneToMany(mappedBy = "service")
     private List<Specialite> specialites;
 
+    @OneToMany(mappedBy = "service")
+    private List<Medecin> medecin;
+
+    public List<Specialite> getSpecialites() {
+        return specialites;
+    }
+
+    public void setSpecialites(List<Specialite> specialites) {
+        this.specialites = specialites;
+    }
+
+    public List<Medecin> getMedecin() {
+        return medecin;
+    }
+
+    public void setMedecin(List<Medecin> medecin) {
+        this.medecin = medecin;
+    }
+
     public int getId() {
         return id;
     }

@@ -8,17 +8,23 @@
   <component name="ChangeListManager">
     <list default="true" id="5bf96e9c-e947-43f3-b5c7-ef98b2022eef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cours/jee/controllers/MedecinServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cours/jee/controllers/MedecinServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cours/jee/models/Medecin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cours/jee/models/Medecin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cours/jee/models/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cours/jee/models/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cours/jee/models/Specialite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cours/jee/models/Specialite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cours/jee/models/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cours/jee/models/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cours/jee/services/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cours/jee/services/IService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cours/jee/services/ISpecialite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cours/jee/services/ISpecialite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cours/jee/services/ServiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cours/jee/services/ServiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cours/jee/services/SpecialiteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cours/jee/services/SpecialiteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/medecin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/medecin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cours/jee/controllers/MedecinServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cours/jee/controllers/MedecinServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cours/jee/models/Medecin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cours/jee/models/Medecin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cours/jee/models/Specialite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cours/jee/models/Specialite.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/test.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test/WEB-INF/classes/cours/jee/models/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test/WEB-INF/classes/cours/jee/models/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test/WEB-INF/classes/cours/jee/controllers/MedecinServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test/WEB-INF/classes/cours/jee/controllers/MedecinServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test/WEB-INF/classes/cours/jee/models/Medecin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test/WEB-INF/classes/cours/jee/models/Medecin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test/WEB-INF/classes/cours/jee/models/Specialite.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test/WEB-INF/classes/cours/jee/models/Specialite.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test/WEB-INF/medecin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/test/WEB-INF/medecin.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +73,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cours/jee/utils" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/www.cours-gratuit.com--id-11032" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -244,6 +250,8 @@
       <workItem from="1574502670144" duration="542000" />
       <workItem from="1574639138508" duration="210000" />
       <workItem from="1574859196226" duration="11417000" />
+      <workItem from="1575464683055" duration="12713000" />
+      <workItem from="1575759066300" duration="582000" />
     </task>
     <servers />
   </component>
@@ -268,8 +276,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/cours/jee/controllers/MedecinServlet.java</url>
-          <line>25</line>
+          <line>55</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/cours/jee/controllers/MedecinServlet.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

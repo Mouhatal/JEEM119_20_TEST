@@ -18,4 +18,9 @@ public class SpecialiteService implements ISpecialite{
     public List<Specialite> findAll() {
         return session.createQuery("SELECT s FROM Specialite s ").list();
     }
+
+    @Override
+    public Specialite findById(int id) {
+        return session.find(Specialite.class,id);
+    }
 }

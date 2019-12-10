@@ -13,6 +13,13 @@
 </head>
 <body>
     <form method="post" action="">
+        <input hidden="hidden" name="action" value="add">
+        <input type="text" name="nom" placeholder="Nom" required="required"><br>
+        <input type="text" name="prenom" placeholder="Prenom" required="required"><br>
+        <input type="text" name="matricule" placeholder="matricule" required="required"><br>
+        <input type="email" name="mail" placeholder="Email" required="required"><br>
+        <input type="tel" name="tel" placeholder="Telephone" required="required"><br>
+        <input type="date" name="datenaiss" required="required"><br>
         <select name="service">
             <c:forEach items="${requestScope.services}" var="srv">
                 <option value="${srv.id}">${srv.libelle}</option>
@@ -23,6 +30,7 @@
                 <option value="${sp.id}">${sp.libelle}</option>
             </c:forEach>
         </select><br>
+        <button type="submit" value="enregistrer">Enregistrer</button>
     </form>
 </body>
 </html>
